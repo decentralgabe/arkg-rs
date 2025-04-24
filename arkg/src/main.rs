@@ -1,5 +1,4 @@
 mod crypto;
-mod utils;
 
 fn main() {
     sodiumoxide::init().expect("Failed to initialize sodiumoxide");
